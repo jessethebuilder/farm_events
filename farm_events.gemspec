@@ -17,6 +17,10 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
   s.add_dependency "rails", "~> 4.2.4"
+  
+  # s.add_dependency 'momentjs-rails', '>= 2.9.0'
+  # s.add_dependency 'bootstrap3-datetimepicker-rails', '~> 4.7.14'
+  s.add_dependency "simple_calendar", "~> 1.1.0"
 
   s.add_development_dependency "sqlite3"
   
