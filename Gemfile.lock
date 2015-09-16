@@ -20,19 +20,17 @@ GIT
     farm_slugs (0.0.1)
       rails (~> 4.2.3)
 
-GIT
-  remote: https://github.com/jessethebuilder/sdad
-  revision: c68b727d71874920b6893762df622955cc02e179
-  specs:
-    sdad (0.0.1)
-      rails (~> 4.2.4)
-
 PATH
   remote: .
   specs:
     farm_events (0.0.1)
-      rails (~> 4.2.4)
+      rails (~> 4.2.3)
       simple_calendar (~> 1.1.0)
+
+PATH
+  remote: C:/Users/Bucky/Desktop/jesseweb/sdad
+  specs:
+    sdad (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -242,13 +240,13 @@ DEPENDENCIES
   factory_girl_rails
   faker
   farm_events!
-  farm_shed!
+  farm_shed (= 0.0.2)!
   farm_slugs!
   geocoder
   guard-rspec
   poltergeist
   rspec-rails
-  sdad!
+  sdad (= 0.0.1)!
   selenium-webdriver
   shoulda
   simple_calendar (~> 1.1.0)
