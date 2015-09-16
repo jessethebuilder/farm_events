@@ -6,11 +6,26 @@ GIT
     cliver (0.3.2)
 
 GIT
+  remote: https://github.com/jessethebuilder/farm_shed
+  revision: 2b6ab3c13f76c27c6ca9f23ecec6c4fd8a58b4a4
+  specs:
+    farm_shed (0.0.2)
+      geocoder (~> 1.2.9)
+      rails (~> 4.2.4)
+
+GIT
   remote: https://github.com/jessethebuilder/farm_slugs
   revision: 662ffa79bde82010dc9c765665beae7ddb5730d0
   specs:
     farm_slugs (0.0.1)
       rails (~> 4.2.3)
+
+GIT
+  remote: https://github.com/jessethebuilder/sdad
+  revision: c68b727d71874920b6893762df622955cc02e179
+  specs:
+    sdad (0.0.1)
+      rails (~> 4.2.4)
 
 PATH
   remote: .
@@ -18,19 +33,6 @@ PATH
     farm_events (0.0.1)
       rails (~> 4.2.4)
       simple_calendar (~> 1.1.0)
-
-PATH
-  remote: C:/Users/Bucky/Desktop/jesseweb/farm_shed
-  specs:
-    farm_shed (0.0.1)
-      geocoder (~> 1.2.9)
-      rails (~> 4.2.4)
-
-PATH
-  remote: C:/Users/Bucky/Desktop/jesseweb/sdad
-  specs:
-    sdad (0.0.1)
-      rails (~> 4.2.4)
 
 GEM
   remote: https://rubygems.org/
@@ -252,3 +254,6 @@ DEPENDENCIES
   simple_calendar (~> 1.1.0)
   sqlite3
   tzinfo-data
+
+BUNDLED WITH
+   1.10.6
