@@ -10,6 +10,7 @@ class Event < ActiveRecord::Base
 
   use_farm_slugs
 
+  validates :name , presence: true
   validates :start_time, presence: true
 
   after_initialize do
@@ -17,6 +18,7 @@ class Event < ActiveRecord::Base
   end
 
   before_save do
+    # address.geocode
     address.geocode unless Rails.env.test?
   end
 
