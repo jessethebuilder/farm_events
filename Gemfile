@@ -20,8 +20,8 @@ gem 'farm_shed', '0.0.2', :git => 'https://github.com/jessethebuilder/farm_shed'
 
 gem 'farm_slugs', :git => 'https://github.com/jessethebuilder/farm_slugs'
 
-# gem 'sdad', '0.0.1', :git => 'https://github.com/jessethebuilder/sdad'
-gem 'sdad', '0.0.1', :path => 'C:\Users\Bucky\Desktop\jesseweb\sdad'
+gem 'sdad', '0.0.1', :git => 'https://github.com/jessethebuilder/sdad'
+# gem 'sdad', '0.0.1', :path => 'C:\Users\Bucky\Desktop\jesseweb\sdad'
 
 gem 'geocoder'
 
