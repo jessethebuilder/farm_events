@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150915194533) do
+ActiveRecord::Schema.define(version: 20150917001825) do
 
   create_table "addresses", force: :cascade do |t|
     t.string   "label"
@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 20150915194533) do
     t.boolean  "archived"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
+    t.datetime "end_time"
   end
 
 end
