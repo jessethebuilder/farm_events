@@ -21,7 +21,8 @@ Gem::Specification.new do |s|
   # s.add_dependency 'momentjs-rails', '>= 2.9.0'
   # s.add_dependency 'bootstrap3-datetimepicker-rails', '~> 4.7.14'
   s.add_dependency "simple_calendar", "~> 1.1.0"
-
+  s.add_dependency "bootsy", "~> 2.1.0"
+  
   s.add_development_dependency "sqlite3"
   
   s.test_files = Dir["spec/**/*"]

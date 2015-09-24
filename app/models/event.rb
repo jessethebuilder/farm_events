@@ -1,5 +1,5 @@
 class Event < ActiveRecord::Base
-  # include Bootsy::Container
+  include Bootsy::Container
   extend SimpleCalendar
   has_calendar
 

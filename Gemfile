@@ -50,6 +50,8 @@ group :test do
   gem 'poltergeist'
 end
 
+gem 'bootsy'
+
 # gem 'carrierwave'
 # gem 'mini_magick'
 # gem 'fog'
